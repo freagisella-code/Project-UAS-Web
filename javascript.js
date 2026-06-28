@@ -3,7 +3,13 @@
 // ==========================================
 
 window.onload = function () {
-    alert("👋 Selamat Datang di Website GlowLab!");
+    let daftar = confirm(
+        "👋 Selamat Datang di GlowLab!\n\nBelum punya akun?\nKlik OK untuk Sign Up atau Cancel untuk Login."
+    );
+
+    if (daftar) {
+        window.location.href = "login.html";
+    }
 };
 
 
