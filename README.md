@@ -15,12 +15,6 @@ Fitur User :
 4. Dark mode
 5. Responsive Design - JQuery 
 
-Fitur Admin : 
-1. Login
-2. Tambah produk
-3. Edit produk
-4. Hapus produk
-
 Technologies 
 -HTML
 -CSS
