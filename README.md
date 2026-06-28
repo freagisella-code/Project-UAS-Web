@@ -4,7 +4,7 @@ Anggota Kelompok :
 1. Makaria Dina Monica (24210062) JAVASCRIPT-JQUERY
 2. Frea Gisella (25210016) HTML
 3. Regina Kumala (25210038) CSS
-4. Tesania Ryohan (25210043) Laravel MySQL
+4. Tesania Ryohan (25210043) README
 
 GlowLab adalah website katalog produk kecantikan yang menyediakan informasi skincare secara interaktif. Website ini dibuat sebagai proyek UAS mata kuliah Pemrograman Web
 
