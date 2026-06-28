@@ -25,7 +25,9 @@ Technologies
 -HTML
 -CSS
 -JavaScript
--Laravel
--MySQL
+
+Dokumentasi:
+25/06/26: 
+28/06/26:
 
 
