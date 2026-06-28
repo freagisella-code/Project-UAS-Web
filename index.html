@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GlowLab</title>
+    <title>GlowLab | Skincare Catalogue</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1><img src="logoitbss2.png" alt="Logo ITBSS" height="30">GlowLab </h1> 
+        <div>
+        <h1><img src="img/LogoGL1.png" alt="" height="30">GlowLab</h1> 
         <p><marquee width="449">Discover Your Perfect Glow</marquee></p>
-    </header>
-     <nav>
+        </div>
+    
+      <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="product.html" target="frameIsi">Product</a></li>
@@ -19,15 +22,88 @@
             <li><a href="about.html" target="frameIsi">About</a></li>
             <li><a href="https://wa.me/6282350705121">Contact</a></li>
         </ul>
-    </nav>
-     <main>
-        <iframe name="frameIsi" src="about.html" frameborder="0"></iframe>
-        <iframe name="frameIsi" src="product.html" frameborder="0"></iframe>
-    </main>
-    <footer>
+      </nav>
+    </header>
+     <!-- <main>
+        <iframe name="frameIsi" src="home.html" frameborder="0"></iframe>
+      
+    </main> -->
+
+    <section class="produk">
+      <div class="produk-content">
+        <h1>Pancarkan kilau alami kulitmu</h1>
+        <p>temukan rangkaian produk perawatan kulit terbaik yang dirancang khusus</p>
+        <a href="product.html" class="btn"> Jelajahi Produk</a>
+      </div>
+    </section>
+    <main id="katalog" class="catalog-container">
+      <div class="section-title">
+        <h2>Katalog Produk Kami</h2>
+        <p>Rekomendasi terbaik untuk kulit sehat</p>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-badge"> Best Seller</div>
+          <div class="product-img">
+            <img src="img/skincare/wardah/serum.PNG" alt="serum-wardah">
+          </div>
+          <div class="product-info">
+            <span class="category">Serum</span>
+            <h3>Glow Radiance Hydrating Serum</h3>
+            <p class="price">Rp 149.900</p>
+            <button class="btn-detail">Lihat Detail</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-img">
+          <img src="" alt="">
+        </div>
+        <div class="product-info">
+          <span class="category">Moisturizer</span>
+          <h3>Cerimide Barrier Moisture Gel</h3>
+          <p class="price">Rp 149.900</p>
+          <button class="btn-detail">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">
+          <img src="" alt="">
+        </div>
+        <div class="product-info">
+          <span class="category">Cleanser</span>
+          <h3>Low pH Gentle Jelly Cleanser</h3>
+          <p class="price">Rp 89.900</p>
+          <button class="btn-detail">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-badge">New</div>
+        <div class="product-img">
+          <img src="" alt="">
+        </div>
+        <div class="product-info">
+          <span class="category">Sunscreen</span>
+          <h3>UV Shield Airy Sunscreen SPF 50+</h3>
+          <p class="price">Rp 115.000</p>
+          <button class="btn-detail">Lihat Detail</button>
+        </div>
+      </div>
+ <div class="music-box">
+  <audio autoplay loop muted controls>
+    <source src="musik/RUDE!.mp3" type="audio/mpeg">
+</audio>
+ </div>
+
+  
+  <footer>
         <p>(ig) @GlowLab_</p>
         <p>glowlab67@gmail.com</p>
         <p>&copy; 2026 GlowLab</p>
-    </footer>
+  </footer>
 </body>
 </html>
