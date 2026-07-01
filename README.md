@@ -21,7 +21,5 @@ Technologies
 -JavaScript
 
 Dokumentasi:
-25/06/26: 
-28/06/26:
-
+https://docs.google.com/spreadsheets/d/1Rf-qoJr10CRr8z-5x3pbxKm8JHJLZ__Kfd6q0YdY7pY/edit?usp=sharing
 
